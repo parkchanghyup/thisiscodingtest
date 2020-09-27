@@ -19,4 +19,5 @@ while len(card) > 1:
     result += first + second
     heapq.heappush(card, first + second)
 
+
 print(result)
